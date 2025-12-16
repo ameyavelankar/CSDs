@@ -4,7 +4,7 @@
 In our Kaggle Notebook, we presented code to generate the CSD theory, but as it is computationally-intensive, only the code framework to calculate the CSDs for all given plays, and optimize.
 
 Here we present code that if run can replicate the figures. The only things that need to be changed are the paths to align with your directory structures.
-We also present 100 sample CSDs from the first 100 plays given in the NFL Dataset.
+We also present 100 sample CSDs from the first 100 plays given in this year's player tracking data. The CSDs were generated in a 3 yd window around the receiver. Keep in mind, that we transformed the coordinates such that play is always from left to right and that the ball always landed on the lower half of the field.
 
 ### Running the Code and File Explanation
 nbdHelp.py - contains all the helper methods required
